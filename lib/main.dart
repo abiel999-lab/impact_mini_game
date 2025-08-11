@@ -31,6 +31,7 @@ class FlappyApp extends StatelessWidget {
 /// Overlay Game Over
 Widget gameOverOverlay(BuildContext context, FlappyGame game) {
   return Container(
+    // ignore: deprecated_member_use
     color: Colors.white.withOpacity(0.9), // 🔹 background putih semi transparan
     child: Center(
       child: Column(

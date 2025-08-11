@@ -5,6 +5,7 @@ import 'package:flame/game.dart';
 import 'package:flame/collisions.dart';
 import 'package:flame_audio/flame_audio.dart';
 
+// ignore: deprecated_member_use
 class Bird extends SpriteComponent with CollisionCallbacks, HasGameRef<FlappyGame> {
   double velocity = 0;
 
